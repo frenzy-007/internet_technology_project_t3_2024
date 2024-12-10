@@ -42,9 +42,12 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   const images = [
-    "./assets/images/pexels-elias-tigiser-411757-9088004.jpg",
-    "./assets/images/pexels-alesiakozik-6022640.jpg",
-    "./assets/images/pexels-yulia-rout-1389036-2721735.jpg",
+    "./assets/images/zamek.jpg",
+    "./assets/images/zamek3.jpg",
+    "./assets/images/spa.jpg",
+    "./assets/images/zamek1.jpg",
+    "./assets/images/nature1.jpg",
+    "./assets/images/spa-town.jpg",
   ];
 
   let currentIndex = 0;

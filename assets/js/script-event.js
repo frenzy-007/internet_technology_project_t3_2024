@@ -1,38 +1,59 @@
 const eventListData = [
   {
-    title: "Event Title 1",
-    date: "2024-07-01",
-    description: "Description for Event 1.",
-    time: "10:00am - 11:00am",
-    location: "@Location1",
+    title: "Advent",
+    date: "2024-12-22",
+    description: "Poděbrady Advent program... ",
+    time: "2:00am/10:00am - 6:00pm",
+    location: "@Various locations",
+    link: "/assets/images/events/Advent.jpg",
   },
   {
-    title: "Event Title 2",
-    date: "2024-07-02",
-    description: "Description for Event 2.",
-    time: "2:00pm - 3:00pm",
-    location: "@Location2",
+    title: "Christmas concert",
+    date: "2024-12-13",
+    description: "Ticket costs 250kč...",
+    time: "Starts at 7:00pm",
+    location: "@City theater",
+    link: "/assets/images/events/ChristmasConcert.png",
   },
   {
-    title: "Event Title 2",
-    date: "2024-07-02",
-    description: "Description for Event 2.",
-    time: "2:00pm - 3:00pm",
-    location: "@Location2",
+    title: "Christmas dream",
+    date: "2024-12-20",
+    description: "Christmas carol concert...",
+    time: "Starts at 6:00pm",
+    location: "@City theater",
+    link: "/assets/images/events/ChristmasDream.jpg",
   },
   {
-    title: "Event Title 2",
-    date: "2024-07-02",
-    description: "Description for Event 2.",
-    time: "2:00pm - 3:00pm",
-    location: "@Location2",
+    title: "Christmas for youth",
+    date: "2024-12-20",
+    description: "Teens and young adults...",
+    time: "Starts at 1:00pm",
+    location: "@T-Club",
+    link: "/assets/images/events/ChristmasForYoungAdults.png",
   },
   {
-    title: "Event Title 2",
-    date: "2024-07-02",
-    description: "Description for Event 2.",
-    time: "2:00pm - 3:00pm",
-    location: "@Location2",
+    title: "Chirstmas with Mameluk",
+    date: "2024-12-08",
+    description: "Rock, pop songs by Mameluk...",
+    time: "Starts at 2:00pm",
+    location: "@Colonnade",
+    link: "/assets/images/events/Mamulek.png",
+  },
+  {
+    title: "Chirstmas with Saxharem",
+    date: "2024-12-08",
+    description: "Saxophone quartet Saxharem...",
+    time: "Starts at 7:00pm",
+    location: "@Havířský kostelík",
+    link: "/assets/images/events/Saxharem.jpg",
+  },
+  {
+    title: "Workshop for kids",
+    date: "2024-12-16",
+    description: "Bring your kids to ...",
+    time: "Starts at 3:30pm",
+    location: "@City library",
+    link: "/assets/images/events/WorkshopForChildren.png",
   },
 ];
 
@@ -79,7 +100,7 @@ function renderEvents() {
             )}</p>
           </div>
           <div class="margin-top-15">
-            <a href=""><h3>${event.title}</h3></a>
+            <a href="${event.link}" target="_blank"><h3>${event.title}</h3></a>
             <p>${event.description}</p>
           </div>
           <div>

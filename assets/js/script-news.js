@@ -1,193 +1,38 @@
 const items = [
   {
-    title: "Lorem ipsum dolor sit amet.",
-    date: "20/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
+    title: "Reconstruction of the continuous road through Přední Lhota",
+    content_type: "Announcement",
+    date: "5/12/2024",
+    img: "/assets/images/news/news1.jpg",
+    link: "/pages/news-item1.html",
   },
   {
-    title: "Consectetur adipisicing elit.",
-    date: "22/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
+    title: "Restrictions on the operation of the Podebrady Town Hall",
+    content_type: "Announcement",
+    date: "3/12/2024",
+    img: "/assets/images/news/news2.jpg",
+    link: "/pages/news-item2.html",
   },
   {
-    title: "Dolorem enim aspernatur error.",
-    date: "23/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
+    title: "7th meeting of the Poděbrady City Council",
+    content_type: "Announcement",
+    date: "3/12/2024",
+    img: "/assets/images/news/news3.jpg",
+    link: "/pages/news-item3.html",
   },
   {
-    title: "Recusandae soluta amet sunt.",
-    date: "25/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
+    title: "Lunch break, calendar week 48-50 2024",
+    content_type: "Announcement",
+    date: "11/20/2024",
+    img: "/assets/images/news/news4.jpg",
+    link: "/pages/news-item4.html",
   },
   {
-    title: "Sed temporibus totam aliquam.",
-    date: "27/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
-  },
-  {
-    title: "Another article title.",
-    date: "28/02/2024",
-    img: "/assets/images/pexels-mohammedsuhail-2723091.jpg",
+    title: "Revitalization of the central spa park",
+    content_type: "News",
+    date: "23/09/2024",
+    img: "/assets/images/news/news5.jpg",
+    link: "/pages/news-item4.html",
   },
   // Add more articles as needed
 ];
@@ -231,14 +76,14 @@ function displayItemsNews() {
             </figure>
             <div class="container-extra-info margin-bottom-20">
               <div class="box-type-date background-color-orange">
-                <span>News</span>
+                <span>${item.content_type}</span>
               </div>
               <div class="box-type-date background-color-blue">
                 <span>${item.date}</span>
               </div>
             </div>
             <div>
-              <a href="/pages/new-detail.html"><h3>${item.title}</h3></a>
+              <a href="${item.link}"><h3>${item.title}</h3></a>
               <p>
                 ${item.title} Description text...
               </p>

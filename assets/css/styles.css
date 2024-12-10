@@ -227,9 +227,28 @@ main > section {
 
 /* Specific styles*/
 
-.container-logo {
+.sticky-top {
   position: fixed;
   top: 0;
+  z-index: 1001;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+.sticky-top > p {
+  text-align: center;
+}
+
+.container-header {
+  margin-top: 45px;
+}
+
+.container-logo {
+  position: fixed;
+  top: 45.6px;
   z-index: 1000;
   display: flex;
   flex-direction: row;
@@ -676,7 +695,7 @@ main > section:nth-of-type(odd):not(:first-child) {
 
   .search-field {
     position: fixed;
-    top: 0;
+    top: 45.6px;
     height: 80px;
     left: calc(
       4rem + 50px + 13.5rem
@@ -710,7 +729,7 @@ main > section:nth-of-type(odd):not(:first-child) {
     align-items: center;
     position: fixed;
     height: 60px;
-    top: 0;
+    top: 45.6px;
     left: calc(
       4rem + 50px + 13.5rem
     ); /* Account for logo width + margins + header spacing */
@@ -736,7 +755,7 @@ main > section:nth-of-type(odd):not(:first-child) {
 
   .flex-box-row-end {
     position: fixed;
-    top: 0;
+    top: 45.6px;
     z-index: 1001;
     right: 15px;
     height: 60px;
@@ -870,11 +889,25 @@ main > section:nth-of-type(odd):not(:first-child) {
   }
 }
 
+@media (max-width: 450px) {
+  .sticky-top {
+    margin-bottom: 20px;
+  }
+
+  .container-logo {
+    top: 65.6px;
+  }
+
+  .container-header {
+    margin-top: 65px;
+  }
+}
+
 /*Screen size larger than 600px*/
 @media ((min-width: 600px) and (max-width: 800px)) {
   .search-field {
     position: fixed;
-    top: 0;
+    top: 45.6px;
     height: 60px;
     left: calc(
       4rem + 25px + 13.5rem
